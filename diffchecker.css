@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+}
+            header{
+                height: 80px;
+                text-align: left;
+                background-color:cadetblue;
+                padding: 30px;
+                color: whitesmoke;
+                font-size:40px;
+                text-shadow: 2px 3px 6px #111;
+            }
+.sec{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.left_corner{
+    width: 10%;
+    display: inline-block; 
+}
+.left{
+    border: 1px solid black;
+    width: 40%;
+    display: inline-block;
+}
+.right{
+    border: 1px solid black;
+    width: 40%;
+    display: inline-block;
+}
+.right_corner{
+    width: 10%;
+    display: inline-block;
+}
+.sec1{
+    
+}
+.sec2{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+#txt1{
+    overflow: hidden;
+    width: 40%;
+    font-size: 15px;
+    display: none;
+    border: 1px solid lightpink;
+    background-color: white;
+}
+#txt2{
+    overflow: hidden;
+   width: 40%;
+    font-size: 15px;
+    display: none;
+        border: 1px solid lightgreen;
+    background-color: white;
+}
+textarea{
+    border: 1px solid darkgrey;
+   height: 400px;
+   width: 100%;
+}
+.errch{
+    opacity: .7;
+     padding: 5px;
+    border: .9px solid #ffcccc;
+    background-color:#ffccff;
+    
+}
+.error{
+    opacity: .7;
+     padding: 5px;
+    border: .9px solid #33ffff;
+    background-color:#ccffff;
+}
+.blank{
+    background-color:#cccccc;
+    padding: 23px;
+}
+mark{
+    background-color:#ffffcc;
+}
+#noerror{
+    background-color:#ffcc99;
+    font-size: 20px;
+    text-align: center;
+}
